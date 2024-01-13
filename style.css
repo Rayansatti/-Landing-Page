@@ -28,7 +28,7 @@ body{
     font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: bold;
     color: #f9faf8;
-    padding: 15px;
+    padding-top: 15px;
  }
 
  .section{
@@ -75,8 +75,10 @@ body{
     font-weight: lighter;
     color: 1f2937;
     font-size: 36px;
-    padding: 50px;
-    text-align: center;
+    padding-right:200px ;
+    padding-left:200px ;
+    padding-top: 100px;
+    text-align:left;
  }
 .second{
     display: flex;
@@ -146,6 +148,7 @@ button{
    color: #f9faf8;
    border: 1px #3882f6;
    border-radius: 5px;
+   
 
 }
 .par1{
@@ -191,9 +194,10 @@ h5{
    background-color: #3882f6;
    width: 70vw;
    align-items: center;
-   margin-top: 30px;
+   margin-top: 100px;
    margin-left: 10vw;
    margin-right: 15vw;
+   margin-bottom: 100px;
    padding-left: 70px;
    padding-right: 70px;
    padding-top: 30px;
@@ -211,4 +215,8 @@ footer{
    color:#e5e7eb;
    padding-bottom: 30px;
 }
-
+h2{
+   color: #1f2937;
+   margin-top: 50px;
+   font-weight: bolder;
+}
