@@ -4,7 +4,9 @@ body{
     padding: 0px;
     margin: 0;
 }
-
+*{
+   font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
  header{
     display: flex;
     justify-content: space-between;
@@ -36,9 +38,9 @@ body{
  }
 
 .headerimg{
-    width: 350px;
-    height: auto;
+   
     border-radius: 10%;
+    width: 450px;
  }
 
  a{
@@ -47,7 +49,8 @@ body{
     flex-wrap: wrap;
     align-items: flex-end;
     text-decoration: none;
-    color: #f9faf8;
+    color: #e5e7eb;
+    font-size: 18px;
  }
  nav>ul{
     display: flex;
@@ -68,6 +71,12 @@ body{
  }
  .reviews{
     background-color: #e5e7eb;
+    font-style: italic;
+    font-weight: lighter;
+    color: 1f2937;
+    font-size: 36px;
+    padding: 50px;
+    text-align: center;
  }
 .second{
     display: flex;
@@ -96,16 +105,20 @@ body{
     gap: 15px;
     align-items: center;
     margin-top: 30px;
+    margin-bottom: 30px;
     border: #3882f6 3px solid ;
     border-radius: 10%;
-    width: 200px;
+    width: 250px;
     
  }
 
  h4{
     display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #dbdde1;
+    font-size: 18px;
    
 
  }
@@ -117,20 +130,30 @@ body{
     align-items: center;
     gap: 160px;
 }
-.button{
-    width: 100px;
+.action>button{
+    width: 150px;
     padding: 7px 35px ;
     background-color: #3882f6;
     color: #f9faf8;
-    border: 0;
+    border: 2px #f9faf8 solid;
     border-radius: 5px;
+}
+
+button{
+   width: 150px;
+   padding: 7px 35px ;
+   background-color: #3882f6;
+   color: #f9faf8;
+   border: 1px #3882f6;
+   border-radius: 5px;
+
 }
 .par1{
     box-sizing: border-box;
-    width: 350px;
+    width: 500px;
     margin-top: 3px;
-    background-color: #f9faf8;
-    padding: 15px;
+    color: #f8faf9;
+   
 }
 .left.bottom{
    display: flex;
@@ -152,3 +175,40 @@ body{
 .images{
    margin-right: 50px;
 }
+
+.maintitle{
+   font-size: 48px;
+   color:#f9faf8;
+}
+h5{
+   text-align: right;
+}
+
+.action{
+   display: flex;
+   justify-content: space-between;
+   gap: 80px;
+   background-color: #3882f6;
+   width: 70vw;
+   align-items: center;
+   margin-top: 30px;
+   margin-left: 10vw;
+   margin-right: 15vw;
+   padding-left: 70px;
+   padding-right: 70px;
+   padding-top: 30px;
+   padding-bottom: 30px;
+   text-align: left;
+}
+
+footer{
+   background-color: #1f2937;
+   display: flex;
+   justify-content: center;
+   align-items: flex-end;
+   margin-top: 30px;
+   height: 50px;
+   color:#e5e7eb;
+   padding-bottom: 30px;
+}
+
